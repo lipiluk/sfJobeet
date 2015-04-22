@@ -95,7 +95,7 @@ class Job
     /**
      * Get id
      *
-     * @return integer 
+     * @return integer
      */
     public function getId()
     {
@@ -118,7 +118,7 @@ class Job
     /**
      * Get companyName
      *
-     * @return string 
+     * @return string
      */
     public function getCompanyName()
     {
@@ -141,7 +141,7 @@ class Job
     /**
      * Get type
      *
-     * @return integer 
+     * @return integer
      */
     public function getType()
     {
@@ -164,7 +164,7 @@ class Job
     /**
      * Get logo
      *
-     * @return string 
+     * @return string
      */
     public function getLogo()
     {
@@ -187,7 +187,7 @@ class Job
     /**
      * Get url
      *
-     * @return string 
+     * @return string
      */
     public function getUrl()
     {
@@ -210,7 +210,7 @@ class Job
     /**
      * Get position
      *
-     * @return string 
+     * @return string
      */
     public function getPosition()
     {
@@ -233,7 +233,7 @@ class Job
     /**
      * Get location
      *
-     * @return string 
+     * @return string
      */
     public function getLocation()
     {
@@ -256,7 +256,7 @@ class Job
     /**
      * Get description
      *
-     * @return string 
+     * @return string
      */
     public function getDescription()
     {
@@ -279,7 +279,7 @@ class Job
     /**
      * Get publishedAt
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getPublishedAt()
     {
@@ -302,7 +302,7 @@ class Job
     /**
      * Get howToApply
      *
-     * @return integer 
+     * @return integer
      */
     public function getHowToApply()
     {
@@ -325,7 +325,7 @@ class Job
     /**
      * Get email
      *
-     * @return string 
+     * @return string
      */
     public function getEmail()
     {

@@ -2,15 +2,14 @@
 
 namespace AppBundle\Entity;
 
+use FOS\UserBundle\Model\User as BaseUser;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * User
- *
- * @ORM\Table()
  * @ORM\Entity
+ * @ORM\Table(name="fos_user")
  */
-class User
+class User extends BaseUser
 {
     /**
      * @var integer
@@ -19,12 +18,12 @@ class User
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    private $id;
+    protected $id;
 
     /**
      * @var boolean
      *
-     * @ORM\Column(name="veryfied", type="boolean")
+     * @ORM\Column(name="veryfied", type="boolean", nullable=true)
      */
     private $veryfied;
 
@@ -32,7 +31,7 @@ class User
     /**
      * Get id
      *
-     * @return integer 
+     * @return integer
      */
     public function getId()
     {
@@ -55,7 +54,7 @@ class User
     /**
      * Get veryfied
      *
-     * @return boolean 
+     * @return boolean
      */
     public function getVeryfied()
     {
